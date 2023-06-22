@@ -1,0 +1,17 @@
+[3.954s] Invoking command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data
+[5.494s] running develop
+[6.594s] running egg_info
+[6.597s] writing toycar.egg-info/PKG-INFO
+[6.598s] writing dependency_links to toycar.egg-info/dependency_links.txt
+[6.599s] writing entry points to toycar.egg-info/entry_points.txt
+[6.600s] writing requirements to toycar.egg-info/requires.txt
+[6.600s] writing top-level names to toycar.egg-info/top_level.txt
+[6.606s] reading manifest file 'toycar.egg-info/SOURCES.txt'
+[6.610s] writing manifest file 'toycar.egg-info/SOURCES.txt'
+[6.615s] running build_ext
+[6.616s] Creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar.egg-link (link to .)
+[6.620s] 
+[6.620s] Installed /home/jordan/Desktop/RObotics project/ros_ws/build/toycar
+[6.621s] running install_data
+[6.623s] copying urdf_description/robot_core.xacro -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description/
+[6.748s] Invoked command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar' returned '0': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data

@@ -1,0 +1,27 @@
+running develop
+Removing /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar.egg-link (link to .)
+running egg_info
+writing ../../build/toycar/toycar.egg-info/PKG-INFO
+writing dependency_links to ../../build/toycar/toycar.egg-info/dependency_links.txt
+writing entry points to ../../build/toycar/toycar.egg-info/entry_points.txt
+writing requirements to ../../build/toycar/toycar.egg-info/requires.txt
+writing top-level names to ../../build/toycar/toycar.egg-info/top_level.txt
+reading manifest file '../../build/toycar/toycar.egg-info/SOURCES.txt'
+writing manifest file '../../build/toycar/toycar.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build
+creating /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build/lib
+creating /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build/lib/toycar
+copying toycar/__init__.py -> /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build/lib/toycar
+running install
+running install_lib
+creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar
+copying /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build/lib/toycar/__init__.py -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar
+byte-compiling /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying launch/rsp.launch.py -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/launch/
+running install_egg_info
+Copying ../../build/toycar/toycar.egg-info to /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/install.log'

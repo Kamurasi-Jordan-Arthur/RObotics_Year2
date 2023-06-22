@@ -1,0 +1,108 @@
+[2.971s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[2.972s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f31f3ebaad0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f31f3eba560>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f31f3eba560>>)
+[3.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.316s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.321s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.322s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jordan/Desktop/RObotics project/ros_ws'
+[3.323s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.324s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.325s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.328s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.444s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.446s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.447s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.452s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.453s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.454s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.455s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.456s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.456s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.458s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.459s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.460s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extensions ['ignore', 'ignore_ament_install']
+[3.462s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'ignore'
+[3.463s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'ignore_ament_install'
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extensions ['colcon_pkg']
+[3.464s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'colcon_pkg'
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extensions ['colcon_meta']
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'colcon_meta'
+[3.465s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extensions ['ros']
+[3.466s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'ros'
+[3.466s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extensions ['cmake', 'python']
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'cmake'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'python'
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extensions ['python_setup_py']
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(scr) by extension 'python_setup_py'
+[3.471s] Level 1:colcon.colcon_core.package_identification:_identify(scr/toycar) by extensions ['ignore', 'ignore_ament_install']
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(scr/toycar) by extension 'ignore'
+[3.472s] Level 1:colcon.colcon_core.package_identification:_identify(scr/toycar) by extension 'ignore_ament_install'
+[3.473s] Level 1:colcon.colcon_core.package_identification:_identify(scr/toycar) by extensions ['colcon_pkg']
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(scr/toycar) by extension 'colcon_pkg'
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(scr/toycar) by extensions ['colcon_meta']
+[3.474s] Level 1:colcon.colcon_core.package_identification:_identify(scr/toycar) by extension 'colcon_meta'
+[3.475s] Level 1:colcon.colcon_core.package_identification:_identify(scr/toycar) by extensions ['ros']
+[3.478s] Level 1:colcon.colcon_core.package_identification:_identify(scr/toycar) by extension 'ros'
+[3.500s] DEBUG:colcon.colcon_core.package_identification:Package 'scr/toycar' with type 'ros.ament_python' and name 'toycar'
+[3.501s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.502s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[3.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[3.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.050s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 393 installed packages in /opt/ros/humble
+[4.081s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.778s] Level 5:colcon.colcon_core.verb:set package 'toycar' build argument 'cmake_args' from command line to 'None'
+[4.778s] Level 5:colcon.colcon_core.verb:set package 'toycar' build argument 'cmake_target' from command line to 'None'
+[4.779s] Level 5:colcon.colcon_core.verb:set package 'toycar' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.779s] Level 5:colcon.colcon_core.verb:set package 'toycar' build argument 'cmake_clean_cache' from command line to 'False'
+[4.779s] Level 5:colcon.colcon_core.verb:set package 'toycar' build argument 'cmake_clean_first' from command line to 'False'
+[4.779s] Level 5:colcon.colcon_core.verb:set package 'toycar' build argument 'cmake_force_configure' from command line to 'False'
+[4.780s] Level 5:colcon.colcon_core.verb:set package 'toycar' build argument 'ament_cmake_args' from command line to 'None'
+[4.780s] Level 5:colcon.colcon_core.verb:set package 'toycar' build argument 'catkin_cmake_args' from command line to 'None'
+[4.780s] Level 5:colcon.colcon_core.verb:set package 'toycar' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.780s] DEBUG:colcon.colcon_core.verb:Building package 'toycar' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jordan/Desktop/RObotics project/ros_ws/install/toycar', 'merge_install': False, 'path': '/home/jordan/Desktop/RObotics project/ros_ws/scr/toycar', 'symlink_install': True, 'test_result_base': None}
+[4.785s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.806s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.808s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jordan/Desktop/RObotics project/ros_ws/scr/toycar' with build type 'ament_python'
+[4.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('toycar', 'ament_prefix_path')
+[4.856s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/hook/ament_prefix_path.ps1'
+[4.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/hook/ament_prefix_path.dsv'
+[4.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/hook/ament_prefix_path.sh'
+[4.901s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.626s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jordan/Desktop/RObotics project/ros_ws/scr/toycar'
+[6.632s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.632s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data
+[11.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar' returned '1': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data
+[11.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.566s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[11.567s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.636s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.637s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.637s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.764s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.774s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jordan/Desktop/RObotics project/ros_ws/install/local_setup.ps1'
+[11.781s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jordan/Desktop/RObotics project/ros_ws/install/_local_setup_util_ps1.py'
+[11.792s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jordan/Desktop/RObotics project/ros_ws/install/setup.ps1'
+[11.799s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jordan/Desktop/RObotics project/ros_ws/install/local_setup.sh'
+[11.802s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jordan/Desktop/RObotics project/ros_ws/install/_local_setup_util_sh.py'
+[11.805s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jordan/Desktop/RObotics project/ros_ws/install/setup.sh'
+[11.810s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jordan/Desktop/RObotics project/ros_ws/install/local_setup.bash'
+[11.813s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jordan/Desktop/RObotics project/ros_ws/install/setup.bash'
+[11.819s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jordan/Desktop/RObotics project/ros_ws/install/local_setup.zsh'
+[11.822s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jordan/Desktop/RObotics project/ros_ws/install/setup.zsh'

@@ -1,0 +1,18 @@
+[3.987s] Invoking command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data
+[5.625s] running develop
+[6.559s] running egg_info
+[6.568s] writing toycar.egg-info/PKG-INFO
+[6.568s] writing dependency_links to toycar.egg-info/dependency_links.txt
+[6.569s] writing entry points to toycar.egg-info/entry_points.txt
+[6.571s] writing requirements to toycar.egg-info/requires.txt
+[6.571s] writing top-level names to toycar.egg-info/top_level.txt
+[6.577s] reading manifest file 'toycar.egg-info/SOURCES.txt'
+[6.578s] writing manifest file 'toycar.egg-info/SOURCES.txt'
+[6.588s] running build_ext
+[6.589s] Creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar.egg-link (link to .)
+[6.593s] 
+[6.594s] Installed /home/jordan/Desktop/RObotics project/ros_ws/build/toycar
+[6.602s] running install_data
+[6.603s] error: can't copy 'urdf_description/*': doesn't exist or not a regular file
+[6.604s] creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description
+[6.747s] Invoked command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar' returned '1': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data

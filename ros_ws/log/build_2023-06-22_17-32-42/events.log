@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000448] (toycar) JobQueued: {'identifier': 'toycar', 'dependencies': OrderedDict()}
+[0.004141] (toycar) JobStarted: {'identifier': 'toycar'}
+[0.096777] (-) TimerEvent: {}
+[0.197457] (-) TimerEvent: {}
+[0.298265] (-) TimerEvent: {}
+[0.372144] (toycar) JobEnded: {'identifier': 'toycar', 'rc': 0}
+[0.375037] (-) EventReactorShutdown: {}

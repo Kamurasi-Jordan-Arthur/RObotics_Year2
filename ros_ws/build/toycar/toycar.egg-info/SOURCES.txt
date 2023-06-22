@@ -1,6 +1,15 @@
 package.xml
 setup.cfg
 setup.py
+../../build/toycar/toycar.egg-info/PKG-INFO
+../../build/toycar/toycar.egg-info/SOURCES.txt
+../../build/toycar/toycar.egg-info/dependency_links.txt
+../../build/toycar/toycar.egg-info/entry_points.txt
+../../build/toycar/toycar.egg-info/requires.txt
+../../build/toycar/toycar.egg-info/top_level.txt
+../../build/toycar/toycar.egg-info/zip-safe
+launch/robot_spawn.launch.py
+launch/rsp.launch.py
 resource/toycar
 toycar/__init__.py
 toycar.egg-info/PKG-INFO
@@ -10,3 +19,8 @@ toycar.egg-info/entry_points.txt
 toycar.egg-info/requires.txt
 toycar.egg-info/top_level.txt
 toycar.egg-info/zip-safe
+urdf_description/inertial_macros.xacro
+urdf_description/robot.urdf.xacro
+urdf_description/robot_core(1).xacro
+urdf_description/robot_core.xacro
+urdf_description/robot_core0.xacro

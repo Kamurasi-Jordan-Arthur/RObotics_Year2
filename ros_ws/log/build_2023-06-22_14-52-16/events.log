@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000969] (toycar) JobQueued: {'identifier': 'toycar', 'dependencies': OrderedDict()}
+[0.005165] (toycar) JobStarted: {'identifier': 'toycar'}
+[0.101060] (-) TimerEvent: {}
+[0.201932] (-) TimerEvent: {}
+[0.302689] (-) TimerEvent: {}
+[0.403489] (-) TimerEvent: {}
+[0.504432] (-) TimerEvent: {}
+[0.605421] (-) TimerEvent: {}
+[0.706104] (-) TimerEvent: {}
+[0.806821] (-) TimerEvent: {}
+[0.907689] (-) TimerEvent: {}
+[1.008435] (-) TimerEvent: {}
+[1.109242] (-) TimerEvent: {}
+[1.210109] (-) TimerEvent: {}
+[1.311682] (-) TimerEvent: {}
+[1.412357] (-) TimerEvent: {}
+[1.512952] (-) TimerEvent: {}
+[1.613631] (-) TimerEvent: {}
+[1.714286] (-) TimerEvent: {}
+[1.814920] (-) TimerEvent: {}
+[1.915547] (-) TimerEvent: {}
+[2.016271] (-) TimerEvent: {}
+[2.117095] (-) TimerEvent: {}
+[2.217786] (-) TimerEvent: {}
+[2.318484] (-) TimerEvent: {}
+[2.419227] (-) TimerEvent: {}
+[2.519840] (-) TimerEvent: {}
+[2.620524] (-) TimerEvent: {}
+[2.721252] (-) TimerEvent: {}
+[2.821906] (-) TimerEvent: {}
+[2.922576] (-) TimerEvent: {}
+[3.023336] (-) TimerEvent: {}
+[3.123979] (-) TimerEvent: {}
+[3.224613] (-) TimerEvent: {}
+[3.325325] (-) TimerEvent: {}
+[3.426044] (-) TimerEvent: {}
+[3.526779] (-) TimerEvent: {}
+[3.627470] (-) TimerEvent: {}
+[3.728234] (-) TimerEvent: {}
+[3.828973] (-) TimerEvent: {}
+[3.929717] (-) TimerEvent: {}
+[4.030523] (-) TimerEvent: {}
+[4.100742] (toycar) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build', '--no-deps', 'install_data'], 'cwd': '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jordan', 'LC_TIME': 'lg_UG.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/jordan', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/jordan/Desktop/RObotics project/ros_ws/scr/toycar', 'TERM_PROGRAM_VERSION': '1.78.2', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'lg_UG.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1121', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b663b6bb65d2ae32e3b838f764940875', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jordan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jordan', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/home/jordan/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/latitude-e7270:@/tmp/.ICE-unix/1121,unix/latitude-e7270:/tmp/.ICE-unix/1121', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'lg_UG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/eb16cbc3_5dcc_40fe_aeb5_377493db829f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'lg_UG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.878V61', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-a4949e502b.sock', 'GNOME_TERMINAL_SERVICE': ':1.127', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'CONDA_PYTHON_EXE': '/home/jordan/anaconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'lg_UG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'lg_UG.UTF-8', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:', 'LC_IDENTIFICATION': 'lg_UG.UTF-8', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/jordan/anaconda3/bin/conda', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=b663b6bb65d2ae32e3b838f764940875', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'lg_UG.UTF-8', 'LC_PAPER': 'lg_UG.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.130703] (-) TimerEvent: {}
+[4.232217] (-) TimerEvent: {}
+[4.333020] (-) TimerEvent: {}
+[4.433721] (-) TimerEvent: {}
+[4.534451] (-) TimerEvent: {}
+[4.635188] (-) TimerEvent: {}
+[4.735802] (-) TimerEvent: {}
+[4.836410] (-) TimerEvent: {}
+[4.937013] (-) TimerEvent: {}
+[5.037742] (-) TimerEvent: {}
+[5.138415] (-) TimerEvent: {}
+[5.239108] (-) TimerEvent: {}
+[5.339804] (-) TimerEvent: {}
+[5.440448] (-) TimerEvent: {}
+[5.538314] (toycar) StdoutLine: {'line': b'running develop\n'}
+[5.540590] (-) TimerEvent: {}
+[5.641189] (-) TimerEvent: {}
+[5.741940] (-) TimerEvent: {}
+[5.842934] (-) TimerEvent: {}
+[5.943543] (-) TimerEvent: {}
+[6.044131] (-) TimerEvent: {}
+[6.144814] (-) TimerEvent: {}
+[6.245545] (-) TimerEvent: {}
+[6.346250] (-) TimerEvent: {}
+[6.447030] (-) TimerEvent: {}
+[6.460637] (toycar) StdoutLine: {'line': b'running egg_info\n'}
+[6.461899] (toycar) StdoutLine: {'line': b'writing toycar.egg-info/PKG-INFO\n'}
+[6.462619] (toycar) StdoutLine: {'line': b'writing dependency_links to toycar.egg-info/dependency_links.txt\n'}
+[6.463304] (toycar) StdoutLine: {'line': b'writing entry points to toycar.egg-info/entry_points.txt\n'}
+[6.463937] (toycar) StdoutLine: {'line': b'writing requirements to toycar.egg-info/requires.txt\n'}
+[6.464618] (toycar) StdoutLine: {'line': b'writing top-level names to toycar.egg-info/top_level.txt\n'}
+[6.474950] (toycar) StdoutLine: {'line': b"reading manifest file 'toycar.egg-info/SOURCES.txt'\n"}
+[6.481280] (toycar) StdoutLine: {'line': b"writing manifest file 'toycar.egg-info/SOURCES.txt'\n"}
+[6.486972] (toycar) StdoutLine: {'line': b'running build_ext\n'}
+[6.487833] (toycar) StdoutLine: {'line': b'Creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar.egg-link (link to .)\n'}
+[6.491428] (toycar) StdoutLine: {'line': b'\n'}
+[6.492017] (toycar) StdoutLine: {'line': b'Installed /home/jordan/Desktop/RObotics project/ros_ws/build/toycar\n'}
+[6.492513] (toycar) StdoutLine: {'line': b'running install_data\n'}
+[6.494715] (toycar) StderrLine: {'line': b"error: can't copy 'urdf_description/*': doesn't exist or not a regular file\n"}
+[6.547253] (-) TimerEvent: {}
+[6.613380] (toycar) CommandEnded: {'returncode': 1}
+[6.614909] (toycar) JobEnded: {'identifier': 'toycar', 'rc': 1}
+[6.626347] (-) EventReactorShutdown: {}
