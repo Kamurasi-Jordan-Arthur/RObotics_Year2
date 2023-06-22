@@ -1,0 +1,23 @@
+[1.324s] Invoking command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data
+[1.759s] running develop
+[2.020s] running egg_info
+[2.020s] creating toycar.egg-info
+[2.020s] writing toycar.egg-info/PKG-INFO
+[2.020s] writing dependency_links to toycar.egg-info/dependency_links.txt
+[2.020s] writing entry points to toycar.egg-info/entry_points.txt
+[2.021s] writing requirements to toycar.egg-info/requires.txt
+[2.021s] writing top-level names to toycar.egg-info/top_level.txt
+[2.021s] writing manifest file 'toycar.egg-info/SOURCES.txt'
+[2.023s] reading manifest file 'toycar.egg-info/SOURCES.txt'
+[2.024s] writing manifest file 'toycar.egg-info/SOURCES.txt'
+[2.026s] running build_ext
+[2.027s] Creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar.egg-link (link to .)
+[2.028s] 
+[2.028s] Installed /home/jordan/Desktop/RObotics project/ros_ws/build/toycar
+[2.028s] running install_data
+[2.028s] creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/ament_index
+[2.029s] creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/ament_index/resource_index
+[2.029s] creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/ament_index/resource_index/packages
+[2.029s] copying resource/toycar -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/ament_index/resource_index/packages
+[2.029s] copying package.xml -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar
+[2.083s] Invoked command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar' returned '0': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data

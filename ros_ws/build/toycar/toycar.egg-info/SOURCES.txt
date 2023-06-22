@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/toycar
+toycar/__init__.py
+toycar.egg-info/PKG-INFO
+toycar.egg-info/SOURCES.txt
+toycar.egg-info/dependency_links.txt
+toycar.egg-info/entry_points.txt
+toycar.egg-info/requires.txt
+toycar.egg-info/top_level.txt
+toycar.egg-info/zip-safe
