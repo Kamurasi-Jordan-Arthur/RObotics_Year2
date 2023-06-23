@@ -54,7 +54,7 @@
     </link>
 
     <gazebo reference = "chassis">
-    <material>Gazebo/white    </material>
+    <material>Gazebo/White</material>
     </gazebo>
     
     <!-- LEFT WHEEL LINK -->
@@ -84,7 +84,7 @@
     </link>
 
     <gazebo reference = "left_wheel">
-    <material>Gazebo/grey</material>
+    <material>Gazebo/Grey</material>
     </gazebo>
     
 
@@ -145,7 +145,7 @@
     </link>
 
     <gazebo reference = "left_wheel">
-    <material>Gazebo/grey</material>
+    <material>Gazebo/Grey</material>
     </gazebo>
     
 </robot>
