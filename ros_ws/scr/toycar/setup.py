@@ -16,7 +16,7 @@ setup(
         (os.path.join('share', package_name , 'urdf_description/'),['urdf_description/' + 'diff_drive.xacro']),
         (os.path.join('share', package_name , 'urdf_description/'),['urdf_description/' + 'robot_core.xacro']),
         (os.path.join('share', package_name , 'urdf_description/'),['urdf_description/' + 'robot_core0.xacro']),        
-        # (os.path.join('share', package_name , 'urdf_description/'),['urdf_description/' + 'robot_core(1).xacro']),
+        (os.path.join('share', package_name , 'urdf_description/'),['urdf_description/' + 'lidar.xacro']),
         (os.path.join('share', package_name , 'urdf_description/'),['urdf_description/' + 'inertial_macros.xacro']),
         (os.path.join('share', package_name , 'launch/'),
          glob('launch/*launch.[pxy][yma]*')),

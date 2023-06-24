@@ -1,0 +1,20 @@
+[3.398s] Invoking command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data
+[4.712s] running develop
+[5.820s] running egg_info
+[5.820s] writing toycar.egg-info/PKG-INFO
+[5.821s] writing dependency_links to toycar.egg-info/dependency_links.txt
+[5.822s] writing entry points to toycar.egg-info/entry_points.txt
+[5.823s] writing requirements to toycar.egg-info/requires.txt
+[5.823s] writing top-level names to toycar.egg-info/top_level.txt
+[5.830s] reading manifest file 'toycar.egg-info/SOURCES.txt'
+[5.833s] writing manifest file 'toycar.egg-info/SOURCES.txt'
+[5.838s] running build_ext
+[5.839s] Creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar.egg-link (link to .)
+[5.842s] 
+[5.843s] Installed /home/jordan/Desktop/RObotics project/ros_ws/build/toycar
+[5.843s] running install_data
+[5.844s] copying urdf_description/robot.urdf.xacro -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description/
+[5.845s] copying urdf_description/diff_drive.xacro -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description/
+[5.846s] copying urdf_description/robot_core0.xacro -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description/
+[5.846s] copying urdf_description/lidar.xacro -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description/
+[5.949s] Invoked command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar' returned '0': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data

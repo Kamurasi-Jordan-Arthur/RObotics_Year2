@@ -21,6 +21,7 @@ toycar.egg-info/top_level.txt
 toycar.egg-info/zip-safe
 urdf_description/diff_drive.xacro
 urdf_description/inertial_macros.xacro
+urdf_description/lidar.xacro
 urdf_description/robot.urdf.xacro
 urdf_description/robot_core.xacro
 urdf_description/robot_core0.xacro
