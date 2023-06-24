@@ -26,9 +26,9 @@
 
     <!-- BASE LINK -->
 
-    <link name="base_link">
+    <link name="base_link" />
 
-    </link>
+    
 
 
     <!-- CHASSIS LINK -->
