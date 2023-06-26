@@ -16,7 +16,9 @@ def generate_launch_description():
 
    
 
-    package_name='toycar' #<--- CHANGE ME
+    package_name='toycar' 
+
+    world = os.path.join(get_package_share_directory(package_name), "worlds", "house.world" )
 
     rsp = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
@@ -27,6 +29,7 @@ def generate_launch_description():
     gazebo = IncludeLaunchDescription(
                 PythonLaunchDescriptionSource([os.path.join(
                     get_package_share_directory('gazebo_ros'), 'launch', 'gazebo.launch.py')]),
+                    lauch_arguments={"world":  world}.items()
              )
 
     spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',

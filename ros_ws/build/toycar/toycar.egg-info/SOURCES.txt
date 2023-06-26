@@ -8,6 +8,9 @@ setup.py
 ../../build/toycar/toycar.egg-info/requires.txt
 ../../build/toycar/toycar.egg-info/top_level.txt
 ../../build/toycar/toycar.egg-info/zip-safe
+config/empty.yaml
+config/mapper_params_online_async.yaml
+config/view_bot.rviz
 launch/robot_spawn.launch.py
 launch/rsp.launch.py
 resource/toycar
