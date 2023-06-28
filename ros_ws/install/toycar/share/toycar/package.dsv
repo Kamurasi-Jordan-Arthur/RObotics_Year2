@@ -4,6 +4,3 @@ source;share/toycar/hook/pythonpath.sh
 source;share/toycar/hook/ament_prefix_path.ps1
 source;share/toycar/hook/ament_prefix_path.dsv
 source;share/toycar/hook/ament_prefix_path.sh
-source;../../build/toycar/share/toycar/hook/pythonpath_develop.ps1
-source;../../build/toycar/share/toycar/hook/pythonpath_develop.dsv
-source;../../build/toycar/share/toycar/hook/pythonpath_develop.sh

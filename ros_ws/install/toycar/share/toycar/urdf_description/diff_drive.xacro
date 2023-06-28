@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" >
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name = 'robot'>
 
     <gazebo>
         <plugin name= "diff_drive_controller" filename = "libgazebo_ros_diff_drive.so">
@@ -20,7 +20,7 @@
 
                 <!-- Output -->
             <odometry_frame>odom</odometry_frame>
-            <robot_base_frame>baselink</robot_base_frame>
+            <robot_base_frame>base_link</robot_base_frame>
 
             <publish_odom>true</publish_odom>
             <publish_odom_tf>true</publish_odom_tf>

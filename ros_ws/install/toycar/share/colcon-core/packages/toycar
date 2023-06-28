@@ -1,1 +1,1 @@
-gazebo_ros:rclpy
+gazebo_ros:rclpy:slam_toolbox

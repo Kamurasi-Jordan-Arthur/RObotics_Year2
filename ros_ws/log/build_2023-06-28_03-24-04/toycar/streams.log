@@ -1,0 +1,46 @@
+[1.235s] Invoking command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data
+[1.917s] running develop
+[2.355s] running egg_info
+[2.355s] creating toycar.egg-info
+[2.355s] writing toycar.egg-info/PKG-INFO
+[2.356s] writing dependency_links to toycar.egg-info/dependency_links.txt
+[2.356s] writing entry points to toycar.egg-info/entry_points.txt
+[2.356s] writing requirements to toycar.egg-info/requires.txt
+[2.356s] writing top-level names to toycar.egg-info/top_level.txt
+[2.357s] writing manifest file 'toycar.egg-info/SOURCES.txt'
+[2.365s] reading manifest file 'toycar.egg-info/SOURCES.txt'
+[2.365s] writing manifest file 'toycar.egg-info/SOURCES.txt'
+[2.369s] running build_ext
+[2.370s] Creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar.egg-link (link to .)
+[2.372s] 
+[2.372s] Installed /home/jordan/Desktop/RObotics project/ros_ws/build/toycar
+[2.372s] running install_data
+[2.373s] creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/ament_index
+[2.374s] creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/ament_index/resource_index
+[2.374s] creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/ament_index/resource_index/packages
+[2.374s] copying resource/toycar -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/ament_index/resource_index/packages
+[2.375s] copying package.xml -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar
+[2.376s] creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description
+[2.377s] copying urdf_description/robot.urdf.xacro -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description/
+[2.384s] copying urdf_description/diff_drive.xacro -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description/
+[2.385s] copying urdf_description/robot_core.xacro -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description/
+[2.386s] copying urdf_description/robot_core0.xacro -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description/
+[2.387s] copying urdf_description/lidar.xacro -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description/
+[2.387s] copying urdf_description/inertial_macros.xacro -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description/
+[2.388s] copying urdf_description/jsp.xacro -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/urdf_description/
+[2.388s] creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/config
+[2.389s] copying config/empty.yaml -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/config/
+[2.389s] copying config/view_bot.rviz -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/config/
+[2.394s] copying config/serialized_map.posegraph -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/config/
+[2.410s] copying config/serialized_map.data -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/config/
+[2.412s] copying config/saved_map.pgm -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/config/
+[2.412s] copying config/saved_map.yaml -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/config/
+[2.415s] copying config/mapper_params_online_async.yaml -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/config/
+[2.416s] creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/worlds
+[2.416s] copying worlds/empty.world -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/worlds/
+[2.416s] copying worlds/house.world -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/worlds/
+[2.417s] creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/launch
+[2.417s] copying launch/robot_spawn.launch.py -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/launch/
+[2.417s] copying launch/rsp.launch.py -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/launch/
+[2.417s] copying launch/slamming.launch.py -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/launch/
+[2.490s] Invoked command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar' returned '0': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data
