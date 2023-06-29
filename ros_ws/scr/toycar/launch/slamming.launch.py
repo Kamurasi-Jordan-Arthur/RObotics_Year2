@@ -22,6 +22,8 @@ def generate_launch_description():
 
     use_sim_time = LaunchConfiguration('use_sim_time')
 
+    localise_setting = os.path.join(pkg_share_dir,"config/veiw.rviz")
+
     slam = IncludeLaunchDescription(
                     PythonLaunchDescriptionSource([
                         online_async_launch]),
@@ -39,6 +41,7 @@ def generate_launch_description():
                 executable="rviz2",
                 name="rvizNode",
                 output="screen",
+                arguments=['-d',localise_setting]
                 )
     
     return LaunchDescription([

@@ -1,0 +1,18 @@
+[0.000000] (-) TimerEvent: {}
+[0.000388] (toycar) JobQueued: {'identifier': 'toycar', 'dependencies': OrderedDict()}
+[0.000529] (toycar) JobStarted: {'identifier': 'toycar'}
+[0.087463] (-) TimerEvent: {}
+[0.187954] (-) TimerEvent: {}
+[0.288846] (-) TimerEvent: {}
+[0.389625] (-) TimerEvent: {}
+[0.490379] (-) TimerEvent: {}
+[0.591203] (-) TimerEvent: {}
+[0.691608] (-) TimerEvent: {}
+[0.792197] (-) TimerEvent: {}
+[0.892573] (-) TimerEvent: {}
+[0.992965] (-) TimerEvent: {}
+[1.093296] (-) TimerEvent: {}
+[1.193824] (-) TimerEvent: {}
+[1.275366] (toycar) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 67, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 633, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 600, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1860, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 105, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 81, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 171, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 128, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: Fatal Python error: init_import_site: Failed to import the site module\nPython runtime state: initialized\nTraceback (most recent call last):\n  File "/usr/lib/python3.10/site.py", line 636, in <module>\n    main()\n  File "/usr/lib/python3.10/site.py", line 629, in main\n    execsitecustomize()\n  File "/usr/lib/python3.10/site.py", line 568, in execsitecustomize\n    import sitecustomize\n  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load\n  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked\n  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked\n  File "<frozen importlib._bootstrap_external>", line 879, in exec_module\n  File "<frozen importlib._bootstrap_external>", line 1029, in get_code\n  File "<frozen importlib._bootstrap_external>", line 1097, in _cache_bytecode\n  File "<frozen importlib._bootstrap_external>", line 1122, in set_data\n  File "<frozen importlib._bootstrap_external>", line 198, in _write_atomic\nKeyboardInterrupt\n\n'}
+[1.276528] (toycar) JobEnded: {'identifier': 'toycar', 'rc': 'SIGINT'}
+[1.280462] (-) EventReactorShutdown: {}

@@ -1,0 +1,31 @@
+[1.034s] Invoking command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build
+[1.405s] Traceback (most recent call last):
+[1.405s]   File "/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/setup.py", line 7, in <module>
+[1.406s]     setup(
+[1.406s]   File "/home/jordan/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 153, in setup
+[1.406s]     return distutils.core.setup(**attrs)
+[1.406s]   File "/usr/lib/python3.10/distutils/core.py", line 134, in setup
+[1.406s]     ok = dist.parse_command_line()
+[1.406s]   File "/usr/lib/python3.10/distutils/dist.py", line 483, in parse_command_line
+[1.406s]     args = self._parse_command_opts(parser, args)
+[1.406s]   File "/home/jordan/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1042, in _parse_command_opts
+[1.407s]     nargs = _Distribution._parse_command_opts(self, parser, args)
+[1.408s]   File "/usr/lib/python3.10/distutils/dist.py", line 539, in _parse_command_opts
+[1.408s]     cmd_class = self.get_command_class(command)
+[1.408s]   File "/home/jordan/.local/lib/python3.10/site-packages/setuptools/dist.py", line 887, in get_command_class
+[1.408s]     self.cmdclass[command] = cmdclass = ep.load()
+[1.408s]   File "/home/jordan/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2450, in load
+[1.409s]     return self.resolve()
+[1.409s]   File "/home/jordan/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2456, in resolve
+[1.410s]     module = __import__(self.module_name, fromlist=['__name__'], level=0)
+[1.410s]   File "/home/jordan/.local/lib/python3.10/site-packages/setuptools/command/develop.py", line 9, in <module>
+[1.410s]     from setuptools.command.easy_install import easy_install
+[1.410s]   File "/home/jordan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py", line 51, in <module>
+[1.410s]     from setuptools.archive_util import unpack_archive
+[1.411s]   File "/home/jordan/.local/lib/python3.10/site-packages/setuptools/archive_util.py", line 4, in <module>
+[1.411s]     import tarfile
+[1.411s]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[1.411s]   File "<frozen importlib._bootstrap>", line 1002, in _find_and_load_unlocked
+[1.411s]   File "<frozen importlib._bootstrap>", line 937, in _find_spec
+[1.412s] KeyboardInterrupt
+[1.451s] Invoked command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar' returned '-2': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build

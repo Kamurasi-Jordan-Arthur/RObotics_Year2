@@ -14,7 +14,7 @@ config/saved_map.pgm
 config/saved_map.yaml
 config/serialized_map.data
 config/serialized_map.posegraph
-config/view_bot.rviz
+config/view.rviz
 launch/robot_spawn.launch.py
 launch/rsp.launch.py
 launch/slamming.launch.py
@@ -23,6 +23,7 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 toycar/__init__.py
+toycar/obAvoidance.py
 urdf_description/diff_drive.xacro
 urdf_description/inertial_macros.xacro
 urdf_description/jsp.xacro

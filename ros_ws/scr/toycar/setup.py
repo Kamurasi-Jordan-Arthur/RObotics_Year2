@@ -35,6 +35,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'ob_Avoidence = toycar.obAvoidance:main',
         ],
     },
 )

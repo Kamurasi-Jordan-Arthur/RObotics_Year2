@@ -1,0 +1,18 @@
+[1.235s] Invoking command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data
+[1.664s] running develop
+[1.955s] running egg_info
+[1.955s] writing toycar.egg-info/PKG-INFO
+[1.955s] writing dependency_links to toycar.egg-info/dependency_links.txt
+[1.955s] writing entry points to toycar.egg-info/entry_points.txt
+[1.956s] writing requirements to toycar.egg-info/requires.txt
+[1.956s] writing top-level names to toycar.egg-info/top_level.txt
+[1.960s] reading manifest file 'toycar.egg-info/SOURCES.txt'
+[1.962s] writing manifest file 'toycar.egg-info/SOURCES.txt'
+[1.963s] running build_ext
+[1.964s] Creating /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar.egg-link (link to .)
+[1.965s] Installing Scan_pre_process script to /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/toycar
+[1.965s] 
+[1.966s] Installed /home/jordan/Desktop/RObotics project/ros_ws/build/toycar
+[1.966s] running install_data
+[1.966s] error: can't copy 'config/view_bot.rviz': doesn't exist or not a regular file
+[2.044s] Invoked command in '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar' returned '1': PYTHONPATH=/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/prefix_override:/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build --no-deps install_data

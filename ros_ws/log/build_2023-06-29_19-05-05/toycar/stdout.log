@@ -1,0 +1,24 @@
+running develop
+running egg_info
+writing ../../build/toycar/toycar.egg-info/PKG-INFO
+writing dependency_links to ../../build/toycar/toycar.egg-info/dependency_links.txt
+writing entry points to ../../build/toycar/toycar.egg-info/entry_points.txt
+writing requirements to ../../build/toycar/toycar.egg-info/requires.txt
+writing top-level names to ../../build/toycar/toycar.egg-info/top_level.txt
+reading manifest file '../../build/toycar/toycar.egg-info/SOURCES.txt'
+writing manifest file '../../build/toycar/toycar.egg-info/SOURCES.txt'
+running build
+running build_py
+copying toycar/obAvoidance.py -> /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build/lib/toycar
+running install
+running install_lib
+copying /home/jordan/Desktop/RObotics project/ros_ws/build/toycar/build/lib/toycar/obAvoidance.py -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar
+byte-compiling /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar/obAvoidance.py to obAvoidance.cpython-310.pyc
+running install_data
+copying worlds/house.world -> /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/share/toycar/worlds/
+running install_egg_info
+removing '/home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/toycar/toycar.egg-info to /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/python3.10/site-packages/toycar-0.0.0-py3.10.egg-info
+running install_scripts
+Installing Scan_pre_process script to /home/jordan/Desktop/RObotics project/ros_ws/install/toycar/lib/toycar
+writing list of installed files to '/home/jordan/Desktop/RObotics project/ros_ws/build/toycar/install.log'
